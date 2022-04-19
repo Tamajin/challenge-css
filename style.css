@@ -61,3 +61,11 @@ width: 470px;
 textarea {
     margin-top: 30px;
 }
+
+.button {
+    margin-top: 15px;
+    margin-left: 33%;
+    width: 50%;
+    background-color: rgb(181, 225, 198);
+    border: none;
+}
