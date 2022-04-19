@@ -1,0 +1,63 @@
+body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+}
+    
+    h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.preparing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.steps li {
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.nutritiveValues {
+    display: grid;
+    grid: 50%;
+    padding: 70px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+caption {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(214, 128, 132);
+}
+
+.contactForm p {
+    border-top: 2px black solid;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+form {
+width: 400px;
+margin: 0 auto;
+}
+
+input, textarea {
+margin: auto;
+border-top: 3px solid black;
+border-right: 3px solid black;
+border-bottom: 0px solid black;
+border-left: 0px solid black;
+width: 470px;
+}
+
+textarea {
+    margin-top: 30px;
+}
